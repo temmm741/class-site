@@ -5,8 +5,8 @@ p{
 
 
 .oops {
-	text-indent: 50px;
-	text-align: right;
+	position:relative;
+	left: :150px;
 }
 }
 

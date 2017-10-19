@@ -1,23 +1,8 @@
-h1 {
-        
-       font-family: "Futura", sans-serif;
-       font-size: 25px;
-        
-     position: absolute;
-     border: 3px 
- }
-
-
-p {
-	position: absolute;
-	letter-spacing:40px;
-   	font-family: "Futura", sans-serif;
-   	font-size: 18px
+p{
+	position: relative;
+	top: 20px;
 }
-.oops{
-	position:relative;
-	left:100px;
-}
+
 .one{
 	position:relative;
 	left:150px;

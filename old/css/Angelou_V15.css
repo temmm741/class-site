@@ -9,15 +9,12 @@ h1 {
 
 
 p {
-	position: absolute;
-	letter-spacing:40px;
+	
+	letter-spacing:20px;
    	font-family: "Futura", sans-serif;
    	font-size: 18px
 }
-.oops{
-	position:relative;
-	left:100px;
-}
+
 .one{
 	position:relative;
 	left:150px;
