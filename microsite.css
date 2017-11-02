@@ -1,0 +1,12 @@
+h1
+{
+	color:black;
+	font-family: 
+	background-color: #00008B;
+
+	div {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
