@@ -1,29 +1,17 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 h1{
 	color:black;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 100px;
 	text-align: center;
-	letter-spacing: 7px
-
-
+	letter-spacing: 7px;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 p{
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	top: 500px;
-}
-
-#December {
-	letter-spacing: 5px
-	font-style: oblique;
-	font-size: 50px
-	position: s-webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  
+	font-weight: bold;
 }
 
 
@@ -66,7 +54,34 @@ animation: AnimationName 41s ease infinite;
     background-image: linear-gradient(0deg, transparent 24%, black 25%, 26%, transparent 27%, transparent 74%, black 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, black 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, black 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
   height:100%;
   width: 100%;
+background-size:150px 150px;
 
-  background-size:150px 150px;
+}
+
+#December {
+	letter-spacing: 8px
+	font-style: oblique;
+	font-size: 50px;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-25deg);
+    text-align: left;
+}
+
+#Coordinates {
+	letter-spacing: 5px
+	font-style: oblique;
+	font-size: 50px;
+	position: s-webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+    text-align: right;
+}
+
+#Time
 
 }
