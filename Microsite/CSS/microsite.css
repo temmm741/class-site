@@ -161,6 +161,7 @@ z-index: 200;
     margin-left: 300px;
     margin-top: 600px;
     font-weight: bold;
+    z-index: 5px;
 }
 #N{
     font-family: "Myriad Pro", Sans-Serif;
@@ -188,6 +189,7 @@ z-index: 200;
     margin-left: 800px;
     margin-top: 600px;
     font-weight: bold;
+    z-index: 5px;
 }
 #R2{
     font-family: "Myriad Pro", Sans-Serif;
@@ -215,6 +217,7 @@ z-index: 200;
     margin-left: 1000px;
     margin-top: 400px;
     font-weight: bold;
+    z-index: 5px;
 }
 #C2{
     font-family: "Myriad Pro", Sans-Serif;
@@ -249,25 +252,37 @@ z-index: 200;
    
 }
 
-.trashcon{
-    display: inline-block;
-    font-family: "Myriad Pro", Sans-Serif;
-    font-size:60px;
-    font-weight:bolder;
-    margin-top:1000px;
-    margin-right: 100px;
-    letter-spacing:25px;
-}
 
 #Time{
     display: inline-block;
     font-family: "Myriad Pro", Sans-Serif;
     font-size:40px;
-    transform:rotate(-45deg);
+    transform:rotate(-25deg);
     margin-top:950px;
     margin-left: 100px;
+    text-shadow: 2px 2px 5px white;
 
+}
 
+.trash{
+    display: inline-block;
+    font-family: "Myriad Pro", Sans-Serif;
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:1000px;
+    margin-left:700px;
+    letter-spacing:25px;
+}
 
+.con{
+    display: inline-block;
+    font-family: "Myriad Pro", Sans-Serif;
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:1000px;
+    margin-left:700px;
+    letter-spacing:25px;
+    z-index:5px;
+    color:white;
 }
 
