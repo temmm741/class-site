@@ -55,20 +55,7 @@ font-weight: 800;
 z-index: 200;
 }
 
-.date {
-    top: 100%;
-    z-index: -2;
-    color: white;
-    position: absolute;
-    margin-left: 900px;
-    font-family: "Myriad Pro", Sans-Serif;
-    font-size:40px;
-    font-weight: 60;
-    letter-spacing: 20px;
-    transform:rotate(40deg);
-    display:inline-block;
 
-}
 
 #paragraph {
     opacity:0;
@@ -87,7 +74,9 @@ z-index: 200;
     height:200vh;
 }
 
-
+#TrashConference{
+    color:darkgreen;
+}
 #T {
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -97,8 +86,7 @@ z-index: 200;
     margin-top: 50px;
     font-weight: bold;
     z-index: -2;
-    color: white;
-
+    color: darkgreen;
 
 }
 
@@ -111,6 +99,7 @@ z-index: 200;
     margin-top: 70px;
     font-weight: bold;
     z-index: -7;
+    color:darkgreen;
 }
 
 #A {
@@ -121,6 +110,7 @@ z-index: 200;
     margin-left: 650px;
     margin-top: 70px;
     font-weight: bold;
+    
 }
 
 #S{
@@ -131,6 +121,7 @@ z-index: 200;
     margin-left: 750px;
     margin-top: 100px;
     font-weight: bold;
+    
 }
 
 #H{
@@ -141,6 +132,7 @@ z-index: 200;
     margin-left: 900px;
     margin-top: 100px;
     font-weight: bold;
+    
 
 }
 
@@ -152,6 +144,7 @@ z-index: 200;
     margin-left: 200px;
     margin-top: 500px;
     font-weight: bold;
+    
 }
 #O{
     font-family: "Myriad Pro", Sans-Serif;
@@ -162,6 +155,7 @@ z-index: 200;
     margin-top: 600px;
     font-weight: bold;
     z-index: 5px;
+    
 }
 #N{
     font-family: "Myriad Pro", Sans-Serif;
@@ -171,6 +165,7 @@ z-index: 200;
     margin-left: 500px;
     margin-top: 800px;
     font-weight: bold;
+   
 }
 #F{
     font-family: "Myriad Pro", Sans-Serif;
@@ -180,6 +175,7 @@ z-index: 200;
     margin-left: 600px;
     margin-top: 500px;
     font-weight: bold;
+    
 }
 #E{
     font-family: "Myriad Pro", Sans-Serif;
@@ -190,6 +186,7 @@ z-index: 200;
     margin-top: 600px;
     font-weight: bold;
     z-index: 5px;
+    
 }
 #R2{
     font-family: "Myriad Pro", Sans-Serif;
@@ -199,6 +196,7 @@ z-index: 200;
     margin-left: 900px;
     margin-top: 800px;
     font-weight: bold;
+    
 }
 #E2{
     font-family: "Myriad Pro", Sans-Serif;
@@ -244,7 +242,7 @@ z-index: 200;
     font-size: 30px;
     font-family: "Myriad Pro", Sans-Serif;
     font-weight: bold;
-    margin-top:400px;
+    margin-top:500px;
     display: inline-block;
     text-align: center;
    
@@ -281,11 +279,31 @@ z-index: 200;
 }
 
 #Coordinates{
+    top:100%;
     display:inline-block;
     font-family: "Myriad Pro", Sans-Serif;
     font-size: 40px;
-    transform: rotate(-25deg);
     color:white;
+    margin-top: 1000px;
+    text-align:center;
+    color:black;
+    letter-spacing: 15px;
+    font-weight: 10px
+}
+
+.date {
+    top: 100%;
+    z-index: -2;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-left: 500px;
+    font-family: "Myriad Pro", Sans-Serif;
+    font-size:40px;
+    font-weight: 60;
+    letter-spacing: 20px;
+    display:inline-block;
+
 }
 .trash{
     display: inline-block;
