@@ -9,9 +9,8 @@ $(document).ready(function(){
 		}
 		if(scrollTop > documentheight/3){
 		$("#paragraph").addClass("notsticky")	
-	
 		}
-
+		
 	})
 })
 
