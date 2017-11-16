@@ -75,7 +75,7 @@ z-index: 200;
 }
 
 #TrashConference{
-    color:darkgreen;
+    color:white;
 }
 #T {
     font-family: "Myriad Pro", Sans-Serif;
@@ -86,7 +86,7 @@ z-index: 200;
     margin-top: 50px;
     font-weight: bold;
     z-index: -2;
-    color: darkgreen;
+    color: white;
 
 }
 
@@ -99,7 +99,7 @@ z-index: 200;
     margin-top: 70px;
     font-weight: bold;
     z-index: -7;
-    color:darkgreen;
+    
 }
 
 #A {
