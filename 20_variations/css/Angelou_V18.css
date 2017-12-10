@@ -1,30 +1,25 @@
+body,html{
+	font-family:arial;
+}
 h1{
 	color:black;
-
 }
 p{
 	font-family: arial
 	top: 500px;
 	color:black;
-	background-color: #fff4e6
+	
 }
 
 .oops{
 	position:relative;
-	margin-left: :1000px;
-	margin-right: 500px; 
-	
-	
+	left:1000px; 
 }
 
-}
 
 .one{
 	position:relative;
 	left:1000px;
-	margin-right:500px;
-
-
 }
 
 .two{

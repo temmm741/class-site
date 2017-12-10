@@ -1,19 +1,12 @@
-
-
-h1{
+body,html{
 	color:black;
-	font-family: helvetica
-   
+	font-family:helvetica;
 }
 
-p{
-	color:black;
-	background-color: #fff4e6
-}
 
 .oops{
 	position:relative;
-	left: :1000px;
+	left:1000px;
 	font-family: helvetica
 }
 

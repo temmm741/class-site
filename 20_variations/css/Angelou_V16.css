@@ -1,3 +1,5 @@
+
+
 h1{
        font-family: "Helvetica",sans-serif ;
        font-size: 50px;
@@ -16,80 +18,85 @@ p {
 	margin-left:150px;
 }
 
+.one{
+	position:relative;
+	margin-left:200;
+}
+
 .two{
 	position:relative;
-	margin-left:200px;
+	margin-left:250px;
 
 }
 
 .three{
 	position:relative;
-	margin-left:250px;
+	margin-left:300px;
 }
 
 .four{
 	position:relative;
-	margin-left:300px;
+	margin-left:350px;
 }
 
 .five{
 	position:relative;
-	margin-left:350px;
+	margin-left:400px;
 }
 
 .six{
 	position:relative;
-	margin-left:400px;
+	margin-left:450px;
 }
 
 .seven{
 	position:relative;
-	left:450px;
+	margin-left:500px;
 }
 
 .eight{
 	position:relative;
-	left:500px;
+	margin-left:550px;
 }
 
 .nine{
 	position:relative;
-	left:550px;
+	margin-left:600px;
 }
 
 .ten{
 	position:relative;
-	left:600px;
+	margin-left:650px;
 }
 
 .eleven{
 	position:relative;
-	left:650px;
+	margin-left:700px;
 }
 
 .twelve{
 	position:relative;
-	left:700px;
+	margin-left:750px;
 }
 
 .thirteen{
 	position:relative;
-	left:750px;
+	left:800px;
 }
 
 .fourteen{
 	position:relative;
-	left:800px;
+	left:850px;
 }
 
 .fifteen{
 	position:relative;
-	left:850px;
+	left:900px;
 }
 
 .sixteen{
 	position:relative;
-	left:900px;
+	left:950px;
 }
 
 
