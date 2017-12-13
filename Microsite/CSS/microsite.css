@@ -1,9 +1,17 @@
 
 
 body, html {
-	margin:0;
-	height:100%;
-	width:100%;
+    margin:0;
+    
+    height:100%;
+    width:100%;
+}
+
+#color {
+    position: fixed;
+    height:100%;
+    width:100%;
+    z-index: -5;
 background: linear-gradient(279deg, #1b408c, #97aedf);
 background-size: 400% 400%;
 -webkit-animation: AnimationName 41s ease infinite;
@@ -33,10 +41,10 @@ animation: AnimationName 41s ease infinite;
     100%{background-position:0% 51%}
 }
 
+
 #content{
-	position: fixed;
-    background-color: transparent;
-    background-image: linear-gradient(0deg, transparent 24%, black 25%,  transparent 27%, transparent 74%, black 75%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, black 25%, transparent 27%, transparent 74%, black 75%, transparent 77%, transparent);
+    position: fixed;
+     background-image: linear-gradient(0deg, transparent 24%, black 25%,  transparent 27%, transparent 74%, black 75%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, black 25%, transparent 27%, transparent 74%, black 75%, transparent 77%, transparent);
   height:100%;
   width: 100%;
 background-size:150px 150px;
@@ -70,6 +78,7 @@ z-index: 200;
 #paragraph.notsticky{
     position:relative;
 }
+
 #text{
     height:200vh;
 }
@@ -77,6 +86,7 @@ z-index: 200;
 #TrashConference{
     color:white;
 }
+
 #T {
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -87,7 +97,6 @@ z-index: 200;
     font-weight: bold;
     z-index: -2;
     color: white;
-
 }
 
 #R {
@@ -98,8 +107,7 @@ z-index: 200;
     margin-left: 400px;
     margin-top: 70px;
     font-weight: bold;
-    z-index: -7;
-    
+    z-index: -7; 
 }
 
 #A {
@@ -109,8 +117,7 @@ z-index: 200;
     font-size: 40px;
     margin-left: 650px;
     margin-top: 70px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 #S{
@@ -120,8 +127,7 @@ z-index: 200;
     font-size: 100px;
     margin-left: 750px;
     margin-top: 100px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
 #H{
@@ -132,8 +138,6 @@ z-index: 200;
     margin-left: 900px;
     margin-top: 100px;
     font-weight: bold;
-    
-
 }
 
 #C{
@@ -154,9 +158,9 @@ z-index: 200;
     margin-left: 300px;
     margin-top: 600px;
     font-weight: bold;
-    z-index: 5px;
-    
+    z-index: 5px; 
 }
+
 #N{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -165,8 +169,8 @@ z-index: 200;
     margin-left: 500px;
     margin-top: 800px;
     font-weight: bold;
-   
 }
+
 #F{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -174,9 +178,9 @@ z-index: 200;
     font-size: 60px;
     margin-left: 600px;
     margin-top: 500px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
+
 #E{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -185,9 +189,9 @@ z-index: 200;
     margin-left: 800px;
     margin-top: 600px;
     font-weight: bold;
-    z-index: 5px;
-    
+    z-index: 5px;   
 }
+
 #R2{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -195,9 +199,9 @@ z-index: 200;
     font-size: 160px;
     margin-left: 900px;
     margin-top: 800px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
+
 #E2{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -207,6 +211,7 @@ z-index: 200;
     margin-top: 400px;
     font-weight: bold;
 }
+
 #N{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -217,6 +222,7 @@ z-index: 200;
     font-weight: bold;
     z-index: 5px;
 }
+
 #C2{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -226,6 +232,7 @@ z-index: 200;
     margin-top: 600px;
     font-weight: bold;
 }
+
 #E3{
     font-family: "Myriad Pro", Sans-Serif;
     display: inline-block;
@@ -244,8 +251,7 @@ z-index: 200;
     font-weight: bold;
     margin-top:500px;
     display: inline-block;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 #linebox{
@@ -255,10 +261,10 @@ z-index: 200;
     margin: 25px;
 }
 
-
 #Time {
     text-align: center;
 }
+
 #Starttime{
     display: inline-block;
     font-family: "Myriad Pro", Sans-Serif;
@@ -266,7 +272,6 @@ z-index: 200;
     transform:rotate(-25deg);
     margin-top:1000px;
     text-shadow: 2px 2px 5px white;
-
 }
 
 #Endtime{
@@ -278,12 +283,12 @@ z-index: 200;
     text-shadow: 2px 2px 5px white;
 }
 
-#Coordinates{
+#coordinates{
     top:100%;
     display:inline-block;
     font-family: "Myriad Pro", Sans-Serif;
     font-size: 40px;
-    margin-top: 1000px;
+    bottom: 100px;
     margin:350px;
     text-align:center;
     color:black;
@@ -292,7 +297,7 @@ z-index: 200;
 }
 
 #date {
-    top: 100%;
+    margin-top: 100%;
     z-index: -2;
     color: white;
     position: absolute;
@@ -302,8 +307,8 @@ z-index: 200;
     font-weight: 60;
     letter-spacing: 20px;
     display:inline-block;
-
 }
+
 .trash{
     display: inline-block;
     font-family: "Myriad Pro", Sans-Serif;
@@ -324,4 +329,3 @@ z-index: 200;
     z-index:5px;
     color:white;
 }
-
