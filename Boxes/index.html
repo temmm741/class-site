@@ -1,19 +1,51 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Malevich's Boxes</title>
-<link rel="stylesheet" href="css/main.css" type="text/css" />
+	<style>
+	body,html{
+	background-color: #fae39b;
+	cursor: url('cursorsmall.png'), default;
+	margin:center;
+	}
+
+	img {
+    display: block;
+    margin: auto;
+	}
+
+.image {
+  opacity: 1;
+  z-index: 999;
+}
+
+
+.image:hover {
+	transition: .5s ease;
+	opacity: .5;
+}
+
+.home {
+	position:fixed;
+	left:90%;
+	z-index: 999;
+	}
+</style>
 </head>
+
 <body>
+		<div class="home"><a href="class-site/index.html"><img src="home.png" width="30%"></a></div>
 
-<div id="box1"></div>
-<div id="box2"></div>
-<div id="box3">
-<div id="box4"></div>
+<h1>
+<img src="malevichstitle.png" width="20%">
+</h1>
 
-</div>
-    
+<a href="boxes1.html"><img src="box1.png" class="image" width="40%"></a>
+<a href="boxes2.html"><img src="box2.png" class="image" width="40%"></a>
+<a href="boxes3.html"><img src="box3.png" class="image" width="40%"></a>
+<a href="boxes4.html"><img src="box4.png" class="image" width="40%"></a>
+
 </body>
 </html>
+
+
+

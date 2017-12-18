@@ -107,9 +107,17 @@ body, html {
 #myCanvas {
   cursor: url('cursorsmall.png'), default;
     position: fixed;
-}</style>
+}
+
+.home {
+  position:fixed;
+  left:90%;
+  z-index: 999;
+}
+</style>
 </head>
 <body>
+  <div class="home"><a href="index.html"><img src="home.png" width="30%"></a></div>
   <canvas id="myCanvas">
     Sorry, your browser does not support HTML5 canvas technology.
   </canvas>
